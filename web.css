@@ -108,18 +108,19 @@ header {
     /* margin-left:auto; */
     grid-column-start: 3;
     position: absolute;
-    top: 70px; /* Adjust the top position as needed */
-    left: 170px; /* Adjust the left position as needed */
+    top: 70px; 
+    left: 150px; 
     width: 150px;
     height: 100px;
 }
 
 #friendSearch {
-    width: 100%;
+    width: 80%;
     height: 2rem;
-    border-radius: 0.3rem;
     border: 1px rgba(128, 128, 128, 0.4) solid;
-    padding-left: 0.5rem;
+    position: absolute;
+    left: 25px; 
+    bottom: 105px;
 }
 #friendList {
     list-style-type: none;
